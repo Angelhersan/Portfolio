@@ -1,7 +1,7 @@
 const canvas = document.querySelector('.hero__canvas');
 const ctx = canvas.getContext('2d');
 let particles = [];
-let randoSpeed = 5
+let randoSpeed = 3
 
 class Particle{
     constructor(){
